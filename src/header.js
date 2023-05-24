@@ -2,9 +2,9 @@ const renderHeader = () => {
   const headerDiv = document.getElementById("header");
   const headerTitle = document.createElement("h2");
   const navBarDiv = document.createElement("div");
-  const homeLink = document.createElement("div");
-  const menuLink = document.createElement("div");
-  const contactLink = document.createElement("div");
+  const homeLink = document.createElement("button");
+  const menuLink = document.createElement("button");
+  const contactLink = document.createElement("button");
 
   headerTitle.textContent = "Ryan's Restaurant";
   homeLink.textContent = "Home";
