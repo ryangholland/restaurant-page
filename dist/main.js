@@ -1,1 +1,1 @@
-console.log("Howdy World.");
+(()=>{"use strict";(()=>{const e=document.getElementById("content"),t=document.createElement("img"),n=document.createElement("h1"),i=document.createElement("p");t.src="../images/restaurant.jpg",t.alt="Inside the restaurant",n.textContent="Welcome to Ryan's Restaurant!",i.textContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo ullam ipsa. Inventore eaque provident officiis suscipit dignissimos cupiditate incidunt a nulla id. Nostrum, quis.",e.appendChild(t),e.appendChild(n),e.appendChild(i)})()})();

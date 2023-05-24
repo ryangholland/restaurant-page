@@ -1,1 +1,3 @@
-console.log('Howdy World.')
+import { renderHomepage } from "./homepage";
+
+renderHomepage();
