@@ -5,9 +5,9 @@
 A simple restaurant website that uses Javascript to dynamically generate the content of each page.
 
 ## Technology Used
-Vanilla HTML and JS
-npm
-Webpack
+- Vanilla HTML and JS
+- npm
+- Webpack
 
 ## Learning Outcomes
 - Practiced using npm and a package.json file to manage project dependencies
