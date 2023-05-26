@@ -1,10 +1,12 @@
+import contactPic from './images/contact.jpg'
+
 const renderContact = () => {
     const contentDiv = document.getElementById("content");
-    const contactImg = document.createElement("img");
+    const contactImg = new Image();
     const contactHeading = document.createElement("h1");
     const contactP = document.createElement("p");
-  
-    contactImg.src = "../images/contact.jpg";
+
+    contactImg.src = contactPic;
     contactImg.alt = "Phone and laptop";
     contactHeading.textContent = "Contact us:";
     contactP.textContent = "Call us at (555) 867-5309 or email us at restaurant@fake.com"

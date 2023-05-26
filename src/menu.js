@@ -1,11 +1,13 @@
+import menuPic from "./images/menu.jpg";
+
 const renderMenu = () => {
   const contentDiv = document.getElementById("content");
-  const menuImg = document.createElement("img");
+  const menuImg = new Image();
   const menuHeading = document.createElement("h1");
   const menuList = document.createElement("ul");
   const menuItems = ["Pizza", "Cheeseburger", "Sushi", "Cheesecake"];
 
-  menuImg.src = "../images/menu.jpg";
+  menuImg.src = menuPic;
   menuImg.alt = "Our famous menu";
   menuHeading.textContent = "Menu";
   menuItems.forEach((item) => {

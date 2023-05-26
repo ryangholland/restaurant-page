@@ -1,10 +1,12 @@
+import restaurantPic from "./images/restaurant.jpg";
+
 const renderHomepage = () => {
   const contentDiv = document.getElementById("content");
-  const homeImg = document.createElement("img");
+  const homeImg = new Image();
   const homeHeading = document.createElement("h1");
   const homeP = document.createElement("p");
 
-  homeImg.src = "../images/restaurant.jpg";
+  homeImg.src = restaurantPic;
   homeImg.alt = "Inside the restaurant";
   homeHeading.textContent = "Welcome to Ryan's Restaurant!";
   homeP.textContent =
